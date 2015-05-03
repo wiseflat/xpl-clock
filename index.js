@@ -18,19 +18,10 @@ wt.init(function(error, xpl) {
         // Load config file into hash
         //wt.readConfig();
         
-	var clockResolution = clock.getres(clock.MONOTONIC);
-	console.log(
-	    'Resolution of CLOCK_MONOTONIC: '
-		+ clockResolution.sec + ' sec and '
-		+ clockResolution.nsec + ' nanosec.'
-	    , clockResolution
-	);
 
         // Send every minutes an xPL status message 
         setInterval(function(){
                 //wt.sendConfig();
-	
-	       wt.clockResolution();
 	       wt.clockTime();
 
         }, 1000);

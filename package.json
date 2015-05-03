@@ -5,7 +5,6 @@
   "main": "./lib/xpl-clock.js",
   "dependencies": {
     "xpl-api": "git://github.com/Nodejs-XPL/xpl-api.git#process_target",
-    "posix-clock": "~0.2.2",
     "fs": "~0.0.2"
   },
   "keywords": [
