@@ -1,5 +1,5 @@
 var xplemail = require("./lib/xpl-clock");
-var schema_clockconfig = require('/etc/wiseflat/schemas/clock.config.json');
+//var schema_clockconfig = require('/etc/wiseflat/schemas/clock.config.json');
 
 var wt = new xplemail(null, {
 	xplLog: false,
