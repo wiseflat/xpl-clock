@@ -1,0 +1,19 @@
+{
+  "name": "xpl-clock",
+  "version": "0.1.0",
+  "description": "Node JS layer to send a tick every minutes",
+  "main": "./lib/xpl-clock.js",
+  "dependencies": {
+    "xpl-api": "git://github.com/Nodejs-XPL/xpl-api.git#process_target",
+    "posix-clock": "~0.2.2",
+    "fs": "~0.0.2"
+  },
+  "keywords": [
+    "XPL","nodejs","clock"
+  ],
+  "repository": { "type": "git", "url": "https://github.com/wiseflat/xpl-clock.git" },
+  "author": "Mathieu Garcia",
+  "license": "GPL",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/wiseflat/xpl-clock"
+}
