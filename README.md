@@ -1,4 +1,4 @@
-xpl-email
+xpl-clock
 ==========
 
-xPL gateway to emailjs 
+xPL clock gateway
