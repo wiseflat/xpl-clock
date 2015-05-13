@@ -1,6 +1,6 @@
 {
   "name": "xpl-clock",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node JS layer to send a tick every minutes",
   "main": "./lib/xpl-clock.js",
   "dependencies": {

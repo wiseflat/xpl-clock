@@ -1,4 +1,4 @@
 xpl-clock
 ==========
 
-xPL clock gateway
+A plugin to synchronize events for the Wiseflat project.
